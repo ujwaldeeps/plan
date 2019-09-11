@@ -29,7 +29,7 @@ export class PlanDetailComponent implements OnInit {
             return this.sanitizer.bypassSecurityTrustStyle(`linear-gradient(${deg + 90}deg,
             transparent 50%, #A2ECFB 50%),linear-gradient(90deg, #A2ECFB 50%, transparent 50%)`);
         } else {
-            return this.sanitizer.bypassSecurityTrustStyle(`linear-gradient(${90 - deg}deg, transparent 50%, #39B4CC 50%),
+            return this.sanitizer.bypassSecurityTrustStyle(`linear-gradient(${deg - 90}deg, transparent 50%, #39B4CC 50%),
                 linear-gradient(90deg, #A2ECFB 50%, transparent 50%)`);
         }
 
