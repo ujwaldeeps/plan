@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-xs-12">
+        <app-plan
+                *ngFor="let plan of plans; let i = index"
+                [plan]="plan"
+                [index]="i"></app-plan>
+    </div>
+</div>

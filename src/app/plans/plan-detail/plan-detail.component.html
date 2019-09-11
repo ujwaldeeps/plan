@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h1>{{ plan.name }}</h1>
+    </div>
+</div>
+
+<div id="activeBorder" class="active-border" [style.background-image]="getBackgroundImage()">
+    <div id="circle" class="circle">
+        <span class="prec" id="prec">{{plan.value}}%</span>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        Start date: {{ plan.startDate }}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        End date: {{ plan.endDate }}
+    </div>
+</div>
